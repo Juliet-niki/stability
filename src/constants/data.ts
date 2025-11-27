@@ -1,0 +1,165 @@
+export const dashboardData = [
+  {
+    title: "Total Tokens",
+    value: "3",
+    subtitle: "Recovery tokens",
+    change: null,
+    changeType: null,
+  },
+  {
+    title: "Average Burn Rate",
+    value: "52.8%",
+    subtitle: null,
+    change: "+5.2% this month",
+    changeType: "positive",
+  },
+  {
+    title: "Total Pools",
+    value: "6",
+    subtitle: "Recovery pools",
+    change: null,
+    changeType: null,
+  },
+  {
+    title: "Total Value Locked",
+    value: "$4.2M",
+    subtitle: null,
+    change: "+12.3% from last month",
+    changeType: "positive",
+  },
+];
+
+export const tokenData = [
+  {
+    id: 1,
+    token: "STBL",
+    tokenAddress: "0x3a9f6b8c2d1e5f4a7b9c0d8e1f2a3b4c5d6e7f8a",
+    burnStatus: "Burned",
+    burnProgress: 45.2,
+  },
+  {
+    id: 2,
+    token: "rETH",
+    tokenAddress: "0x7c5e9d2b4f8a1c6e3b9f0d7a2e5c8b1d4f6a9c3e",
+    burnStatus: "Burned",
+    burnProgress: 67.8,
+  },
+  {
+    id: 3,
+    token: "rBTC",
+    tokenAddress: "0x1f4d7a9c3e6b8f2d5a9c7e1b4f8d2a6c9e3b5f7a",
+    burnStatus: "Burned",
+    burnProgress: 23.5,
+  },
+];
+
+export const poolData = [
+  {
+    id: 1,
+    pair: "ETH/USDC",
+    tokenAddress: "0x1234567890abcdef1234567890abcdef12345678",
+    price: 2345.67,
+  },
+  {
+    id: 2,
+    pair: "BTC/USDT",
+    tokenAddress: "0xabcdef1234567890abcdef1234567890abcdef01",
+    price: 43234.89,
+  },
+  {
+    id: 3,
+    pair: "STBL/ETH",
+    tokenAddress: "0x9876543210fedcba9876543210fedcba98765432",
+    price: 1.23,
+  },
+  {
+    id: 4,
+    pair: "DAI/USDC",
+    tokenAddress: "0x5555666677778888999900001111222233334444",
+    price: 1.0,
+  },
+  {
+    id: 5,
+    pair: "WBTC/ETH",
+    tokenAddress: "0x7777888899990000111122223333444455556666",
+    price: 18.45,
+  },
+  {
+    id: 6,
+    pair: "USDT/USDC",
+    tokenAddress: "0x9999000011112222333344445555666677778888",
+    price: 0.9998,
+  },
+  {
+    id: 7,
+    pair: "LINK/ETH",
+    tokenAddress: "0x1111222233334444555566667777888899990000",
+    price: 0.0042,
+  },
+  {
+    id: 8,
+    pair: "UNI/USDC",
+    tokenAddress: "0xaaabbbcccdddeeefffaaa111222333444555666",
+    price: 8.75,
+  },
+  {
+    id: 9,
+    pair: "MATIC/USDT",
+    tokenAddress: "0x9998887776665554443332221110009988776655",
+    price: 0.8934,
+  },
+  {
+    id: 10,
+    pair: "AAVE/ETH",
+    tokenAddress: "0xfedcba9876543210fedcba9876543210fedcba98",
+    price: 0.0385,
+  },
+  {
+    id: 11,
+    pair: "SOL/USDC",
+    tokenAddress: "0x1234abcd5678efgh9012ijkl3456mnop7890qrst",
+    price: 102.45,
+  },
+  {
+    id: 12,
+    pair: "DOT/USDT",
+    tokenAddress: "0xabcdef1234567890abcdef1234567890abcdef12",
+    price: 6.82,
+  },
+  {
+    id: 13,
+    pair: "AVAX/ETH",
+    tokenAddress: "0x5678901234abcdef5678901234abcdef56789012",
+    price: 0.0145,
+  },
+  {
+    id: 14,
+    pair: "CRV/USDC",
+    tokenAddress: "0x0987654321fedcba0987654321fedcba09876543",
+    price: 0.62,
+  },
+  {
+    id: 15,
+    pair: "MKR/ETH",
+    tokenAddress: "0x1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b",
+    price: 0.5234,
+  },
+  {
+    id: 16,
+    pair: "SNX/USDT",
+    tokenAddress: "0xdeadbeefcafebabefeedface1234567890abcdef",
+    price: 2.18,
+  },
+  {
+    id: 17,
+    pair: "DAI/ETH",
+    tokenAddress: "0x1234567890abcdef1234567890abcdef12345678",
+    price: 0.0001,
+  },
+  {
+    id: 18,
+    pair: "DAI/USDT",
+    tokenAddress: "0x1234567890abcdef1234567890abcdef12345678",
+    price: 0.0001,
+  },
+];
