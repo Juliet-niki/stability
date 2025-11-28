@@ -284,7 +284,7 @@ export default function Home() {
                   <select
                     value={itemsPerPage}
                     onChange={handleItemsPerPageChange}
-                    className="text-white bg-[#151618]"
+                    className="text-white bg-[#151618] cursor-pointer"
                   >
                     <option value={5}>5</option>
                     <option value={10}>10</option>
