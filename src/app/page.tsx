@@ -136,7 +136,7 @@ export default function Home() {
 
                   {/* Token Address */}
                   <div className="flex items-center gap-2">
-                    <span className="text-gray-300 font-mono text-sm">
+                    <span className="text-[#EAECEF] font-mono text-sm">
                       {truncateAddress(item.tokenAddress)}
                     </span>
                     <button
@@ -155,7 +155,7 @@ export default function Home() {
                       <div className="text-[#97979A] text-sm mb-2">
                         {item.burnStatus}
                       </div>
-                      <div className="w-full bg-gray-800 rounded-full h-2">
+                      <div className="w-full bg-[#23252A] rounded-full h-2">
                         <div
                           className="bg-[#7C3BED] h-2 rounded-full transition-all duration-300"
                           style={{ width: `${item.burnProgress}%` }}
@@ -217,7 +217,7 @@ export default function Home() {
                 currentPools.map((pool) => (
                   <div
                     key={pool.id}
-                    className="grid gap-8 px-6 py-4 border-b border-[#23252A] last:border-b-0 hover:bg-gray-800/50 transition-colors text-start"
+                    className="grid gap-8 px-6 py-4 border-b border-[#23252A] last:border-b-0 lg:bg-transparent text-start"
                     style={{
                       gridTemplateColumns:
                         "clamp(60px, 23vw, 320px) clamp(150px, 43vw, 600px) 1fr",
@@ -230,7 +230,7 @@ export default function Home() {
 
                     {/* Token Address */}
                     <div className="flex items-center gap-2">
-                      <span className="text-gray-300 font-mono text-sm">
+                      <span className="text-[#EAECEF] font-mono text-sm">
                         {truncateAddress(pool.tokenAddress)}
                       </span>
                       <button
