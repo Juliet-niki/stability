@@ -108,3 +108,20 @@ export const ForwardIcon = ({ height, width, className }: IProps) => (
     ></path>
   </svg>
 );
+
+export const SortArrowIcon = ({ height, width, className }: IProps) => (
+  <svg
+    className={className}
+    width={width ?? DEFAULT_SIZE}
+    height={height ?? DEFAULT_SIZE}
+    viewBox="0 0 16 16"
+    fill="none"
+  >
+    <path
+      fillRule="evenodd"
+      clipRule="evenodd"
+      d="M5.8335 5.8995V7.00048H10.1668V5.8995L8.00016 3.56543L5.8335 5.8995ZM10.1668 10.1013V9.00032H5.8335V10.1013L8.00016 12.4354L10.1668 10.1013Z"
+      fill="#97979A"
+    ></path>
+  </svg>
+);
